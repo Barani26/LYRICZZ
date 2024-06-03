@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;   
+}
+.nav{
+    background-color: rgb(247, 129, 241);
+    padding: 10px;
+}
+.con{
+    padding: 10px;
+
+}
+.book{
+    text-align: left;
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+margin: 30px;
+display: inline-block;
+vertical-align: top;
+}
+.book h2{
+    color: rgb(247, 129, 241);
+}
+.book h5{
+    color:rgb(0, 238, 255)
+}
+.book button{
+    background-color: rgb(247, 129, 241);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.popupbut{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right:30px ;
+    font-size: 40px;
+    border: none;
+    background-color: rgb(247, 129, 241);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 100%;
+}
+.popupbut:hover{
+    cursor: pointer;
+
+}
+.pop{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: none;
+}
+.popbox{
+    background-color: rgb(247, 129, 241);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 4;
+    display: none;
+}
+.popbox input{
+    background-color: transparent;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.popbox textarea{
+    outline: none;
+    background-color: transparent;
+    margin: 5px;
+    width: 100%;
+    
+    padding: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.popbox input::placeholder{
+    color: black;
+}
+.popbox textarea::placeholder{
+    color:  black;
+}
+.popbox button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.popbox button:hover{
+    cursor: pointer;
+    background-color: rgb(114, 177, 225)
+}
+.book button:hover{
+    cursor: pointer;
+}
